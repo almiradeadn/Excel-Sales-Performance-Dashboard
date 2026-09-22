@@ -42,16 +42,6 @@ Dashboard menyediakan beberapa analisis dan visualisasi, antara lain:
 - Slicer
 - Data Labels
 
-## Struktur Repository
-
-```text
-Excel-Sales-Performance-Dashboard/
-├── README.md
-├── Excel-Sales-Performance-Dashboard.xlsx
-└── screenshots/
-    └── dashboard.jpeg
-```
-
 ## Dashboard Preview
 
 ![Excel Sales Performance Dashboard](screenshots/dashboard.jpeg)
