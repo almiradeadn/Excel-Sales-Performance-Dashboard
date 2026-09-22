@@ -48,7 +48,7 @@ Dashboard menyediakan beberapa analisis dan visualisasi, antara lain:
 Excel-Sales-Performance-Dashboard/
 ├── README.md
 ├── Excel-Sales-Performance-Dashboard.xlsx
-└── ![Excel Sales Performance Dashboard](screenshots/dashboard.jpeg)
+└── ![Excel-Sales-Performance-Dashboard](screenshots/dashboard.jpeg)
     └── dashboard.png
 ```
 
