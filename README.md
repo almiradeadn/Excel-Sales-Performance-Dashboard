@@ -2,7 +2,7 @@
 
 Dashboard interaktif untuk menganalisis performa penjualan dan profitabilitas, dibuat dengan Microsoft Excel (PivotTable, PivotChart, Slicer) menggunakan dataset Superstore dari Mini Bootcamp Kalibrr.
 
-![Excel Sales Performance Dashboard](screenshots/dashboard.jpeg)
+![Excel Sales Performance Dashboard](dashboard.jpeg)
 
 ## Dataset
 
@@ -22,9 +22,9 @@ Dashboard interaktif untuk menganalisis performa penjualan dan profitabilitas, d
 ## Key Insights
 
 1. **Profit tumbuh lebih cepat dari sales.** Profit naik 89% (2014-2017: $49,544 menjadi $93,439), sedangkan sales naik 51% ($484,247 menjadi $733,215). Sales sempat turun pada 2015.
-2. **West unggul di sales dan profit.** West menyumbang 31.6% sales dan 37.9% profit ($108,418).
+2. **West unggul di sales dan profit.** West menyumbang 31.6% sales dan 37.9% profit.
 3. **Consumer adalah segmen terbesar** dengan 50.6% dari total sales, diikuti Corporate (30.7%) dan Home Office (18.7%).
-4. **Technology menyumbang 36.4% sales dan sekitar 51% profit.** Copiers memiliki profit tertinggi ($55,618), sedangkan Phones memiliki sales tertinggi ($330,007).
+4. **Technology menyumbang 36.4% sales dan sekitar 50.8% profit.** Copiers memiliki profit tertinggi ($55,618), sedangkan Phones memiliki sales tertinggi ($330,007).
 5. **Tiga sub-category merugi:** Tables (-$17,725), Bookcases (-$3,473), dan Supplies (-$1,189). Machines memiliki sales tinggi ($189,239) tetapi profit sangat tipis ($3,385).
 6. **Central memiliki diskon rata-rata tertinggi (24%) tetapi profit terendah ($39,706)**, yang menunjukkan diskon besar menekan profit.
 
@@ -60,4 +60,4 @@ Dashboard interaktif untuk menganalisis performa penjualan dan profitabilitas, d
 ## Files
 
 - `Excel-Sales-Performance-Dashboard.xlsx` - file dashboard Excel
-- `screenshots/dashboard.jpeg` - tampilan dashboard
+- `dashboard.jpeg` - tampilan dashboard
