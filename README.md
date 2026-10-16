@@ -1,63 +1,63 @@
 # Excel Sales Performance Dashboard
 
-Dashboard analisis performa penjualan interaktif yang dikembangkan menggunakan Microsoft Excel dengan memanfaatkan dataset Superstore yang diperoleh melalui Mini Bootcamp Kalibrr.
-
-## Deskripsi Proyek
-
-Proyek ini bertujuan untuk menganalisis Sales dan Profit berdasarkan beberapa aspek bisnis, seperti:
-
-- Wilayah penjualan
-- Segmen pelanggan
-- Kategori dan sub-kategori produk
-- Performa pelanggan
-- Tren penjualan dan profit dari waktu ke waktu
-
-Hasil analisis disajikan dalam bentuk dashboard interaktif menggunakan PivotTable, PivotChart, Slicer, dan Data Labels.
-
-## Key Metrics
-
-- **Total Sales:** $2,297,201
-- **Total Profit:** $286,397
-- **Profit Margin:** 12.47%
-- **Total Orders:** 9,994
-
-## Fitur Dashboard
-
-Dashboard menyediakan beberapa analisis dan visualisasi, antara lain:
-
-- KPI Total Sales, Total Profit, Profit Margin, dan Total Orders
-- Slicer interaktif untuk memfilter data
-- Analisis Sales dan Profit berdasarkan Region
-- Analisis Sales berdasarkan Customer Segment dan Category
-- Analisis Sales dan Profit berdasarkan Sub-Category
-- Analisis tren Sales dan Profit berdasarkan tahun
-- Analisis Top Customer
-- Key Takeaways dan rekomendasi berdasarkan hasil analisis
-
-## Tools yang Digunakan
-
-- Microsoft Excel
-- PivotTable
-- PivotChart
-- Slicer
-- Data Labels
-
-## Dashboard Preview
+Dashboard interaktif untuk menganalisis performa penjualan dan profitabilitas, dibuat dengan Microsoft Excel (PivotTable, PivotChart, Slicer) menggunakan dataset Superstore dari Mini Bootcamp Kalibrr.
 
 ![Excel Sales Performance Dashboard](screenshots/dashboard.jpeg)
 
-## Tujuan Proyek
+## Dataset
 
-Proyek ini dibuat sebagai portfolio project untuk menunjukkan kemampuan dalam:
+- **Sumber:** Superstore dataset (Mini Bootcamp Kalibrr)
+- **Periode:** 3 Januari 2014 - 30 Desember 2017
+- **Ukuran data:** 9.994 baris transaksi
 
-- Melakukan analisis data menggunakan Microsoft Excel
-- Mengolah dan merangkum data menggunakan PivotTable
-- Membuat visualisasi data menggunakan PivotChart
-- Membuat dashboard interaktif menggunakan Slicer
-- Menentukan dan menyajikan KPI
-- Mengidentifikasi pola dan insight dari data
-- Menyajikan hasil analisis dalam bentuk dashboard yang mudah dipahami
+## Key Metrics
 
-## Hasil
+| Metrik | Nilai |
+|---|---|
+| Total Sales | $2,297,201 |
+| Total Profit | $286,397 |
+| Profit Margin | 12.47% |
+| Total Orders | 9,994 (baris transaksi) |
 
-Dashboard memberikan gambaran mengenai Sales, Profit, pelanggan, produk, wilayah penjualan, serta tren penjualan berdasarkan data transaksi Superstore.
+## Key Insights
+
+1. **Profit tumbuh lebih cepat dari sales.** Profit naik 89% (2014-2017: $49,544 menjadi $93,439), sedangkan sales naik 51% ($484,247 menjadi $733,215). Sales sempat turun pada 2015.
+2. **West unggul di sales dan profit.** West menyumbang 31.6% sales dan 37.9% profit ($108,418).
+3. **Consumer adalah segmen terbesar** dengan 50.6% dari total sales, diikuti Corporate (30.7%) dan Home Office (18.7%).
+4. **Technology menyumbang 36.4% sales dan sekitar 51% profit.** Copiers memiliki profit tertinggi ($55,618), sedangkan Phones memiliki sales tertinggi ($330,007).
+5. **Tiga sub-category merugi:** Tables (-$17,725), Bookcases (-$3,473), dan Supplies (-$1,189). Machines memiliki sales tinggi ($189,239) tetapi profit sangat tipis ($3,385).
+6. **Central memiliki diskon rata-rata tertinggi (24%) tetapi profit terendah ($39,706)**, yang menunjukkan diskon besar menekan profit.
+
+## Rekomendasi
+
+- Pertahankan fokus pada kategori Technology, terutama Copiers dan Phones.
+- Evaluasi sub-category yang merugi (terutama Tables) dan Machines yang margin-nya tipis, untuk menemukan penyebab dan potensi perbaikan harga atau diskon.
+- Tinjau kebijakan diskon di region Central.
+- Pertimbangkan promosi atau bundling di region South (kontribusi sales terendah, 17.1%) sambil memonitor dampak diskon terhadap profit.
+
+## Fitur Dashboard
+
+- KPI: Total Sales, Total Profit, Profit Margin, Total Orders
+- Slicer interaktif: Segment, Category, Sub-Category
+- Tren Sales dan Profit tahunan
+- Sales dan Profit berdasarkan Region
+- Sales berdasarkan Customer Segment dan Category
+- Scatter plot Sales vs Profit per Sub-Category (titik merah = merugi)
+- Rata-rata diskon vs Profit per Region
+- Top 5 Customers
+- Key Takeaways dan Recommendation
+
+## Tools
+
+- Microsoft Excel: PivotTable, PivotChart, Slicer, GETPIVOTDATA, scatter chart
+
+## Skills Demonstrated
+
+- Merangkum dan menganalisis data penjualan dengan PivotTable
+- Membangun dashboard interaktif dengan KPI dan slicer
+- Mengidentifikasi insight dan menyusun rekomendasi bisnis dari data
+
+## Files
+
+- `Excel-Sales-Performance-Dashboard.xlsx` - file dashboard Excel
+- `screenshots/dashboard.jpeg` - tampilan dashboard
