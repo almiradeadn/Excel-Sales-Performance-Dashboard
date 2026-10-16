@@ -59,5 +59,5 @@ Dashboard interaktif untuk menganalisis performa penjualan dan profitabilitas, d
 
 ## Files
 
-- `Excel-Sales-Performance-Dashboard.xlsx` - file dashboard Excel
-- `dashboard.jpeg` - tampilan dashboard
+- [Excel-Sales-Performance-Dashboard.xlsx](Excel-Sales-Performance-Dashboard.xlsx) - file dashboard Excel
+- [dashboard.jpeg](dashboard.jpeg) - tampilan dashboard
